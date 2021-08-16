@@ -1,0 +1,293 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+body{
+	background-color: #F8F8F8;
+	overflow: hidden;
+}
+.header{
+	height: 70px;
+	background-color: #467FE6;
+}
+.header .logo{
+	font-size: 26px;
+	color: #FFFFFF;
+	line-height: 70px;
+	padding-left: 20px;
+	font-weight: 700;
+	float: left;
+	width: 400px;
+
+}
+.header .user{
+	color: #FFFFFF;
+	line-height: 70px;
+	font-weight: 700;
+	float: right;
+	margin-right: 20px;
+	font-size: 18px;
+	padding: 0px 15px;
+	cursor: pointer;
+
+}
+.header .user:hover ul{
+		display: block;
+}
+.header .user .point{
+	float: right;
+	margin-top: 25px;
+	margin-left: 3px;
+}
+
+.header .user ul{
+	list-style: none;
+	background-color: #FFFFFF;
+	border: 1px solid #E1E1E1;
+	box-shadow: 1px 1px 1px #CCCCCC;
+	position: absolute;
+	z-index: 999999;
+	display: none;
+}
+.header .user ul li{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+.header .user ul li a{
+	color: #333333;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	display: block;
+	padding: 0px 10px;
+}
+.header .user ul li a:hover{
+	background-color: #F2F2FA;
+	
+}
+.left{
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 200px;
+	float: left;
+	left: 0px;
+	top: 70px;
+	bottom: 0px;
+	border-right: 1px solid #E1E1E1;
+}
+.left .title{
+	height: 48px;
+	line-height: 48px;
+	background-color: #E9E9E9;
+	border-right: 1px solid #E1E1E1;
+	font-size: 15px;
+	color: #333333;
+	text-align: center;
+	
+}
+
+.menux p{
+	height: 40px;
+	background-color: #F8F8F8;
+	line-height: 40px;
+	border-bottom: 1px solid #E1E1E1;
+	text-align: center;
+	
+	
+}
+.menux p:hover{
+	background-color: #467FE6;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.menux p:hover i{
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.menux p .point{
+	float: right;
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+.menux ul{
+	list-style: none;
+	display: none;
+}
+.menux ul li{
+	list-style: none;
+	line-height: 36px;
+	height: 36px;
+	border-bottom: 1px dotted #CCCCCC;
+	box-sizing: border-box;
+	color: #666666;
+	
+}
+.menux ul li:hover{
+	background-color: #F2F2FA;
+	color: #467FE6;
+	cursor: pointer;
+	
+}
+.menux ul li a{
+	display: block;
+	padding-left: 70px;
+	color: #666666;
+	text-decoration: none;
+}
+.menux ul li a:hover{
+	color: #467FE6;
+}
+.main{
+	background-color: ;
+	position: absolute;
+	bottom: 0px;
+	float: right;
+	float: left;
+	left: 210px;
+	right: 0px;
+	top: 70px;
+	bottom: 0px;
+}
+.location{
+	height: 40px;
+	line-height: 40px;
+	background-color: #FFFFFF;
+	border-left: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	padding-left: 10px;
+	box-sizing: border-box;
+	color: #666666;
+}
+.condition{
+	background-color: #FFFFFF;
+	border: 1px solid #E1E1E1;
+	margin-top: 20px;
+	padding: 10px 5px;
+	color: #666666;
+}
+.condition input{
+	height: 24px;
+	border: 1px solid #E0E0E0;
+	border-radius: 4px;
+}
+.condition button{
+	margin-right: 10px;
+	background-color: #467FE6;
+	color: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	padding: 2px 5px;
+	font-size: 13px;
+	border: 0px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.condition button:hover{
+	background-color: #0064CD;
+}
+.tablelist{
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid red;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+}
+
+.tablelist th,td{
+	height: 30px;
+	border: 1px solid #F0F0F0;
+}
+.tablelist th{
+	background-color: #E9E9E9;
+}
+.tablelist td{
+	padding: 0px 2px
+}
+.tablelist tr:hover{
+	background-color: #F2F2FA;
+}
+.tablelist tr:nth-child(even){
+	background-color: #F8F8F8;
+}
+.tablelist .edit,.tablelist .remove{
+	background-color: transparent;
+	border: 1px solid transparent;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.tablelist .edit{
+	color: #005f98;
+}
+.tablelist .remove{
+	color: crimson;
+}
+.page{
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	border-left: 1px solid #E0E0E0;
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	height: 40px;
+}
+.page td{
+	padding-left: 20px;
+}
+.page button{
+	margin-right: 10px;
+	background-color: #467FE6;
+	color: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	padding: 2px 5px;
+	font-size: 13px;
+	border: 0px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.page button:hover{
+	background-color: #0064CD;
+}
+.page-no{
+	width: 40px;
+	border-radius: 4px;
+	border: 1px solid #E0E0E0;
+}
+.add{
+	position: absolute;
+	background-color: #FFFFFF;
+	border: 1px solid #F0F0F0;
+	bottom: 0px;
+	top: 10px;
+	right: 10px;
+	left: 0px;
+}
+.tableadd{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+.tableadd td{
+	height: 35px;
+	padding-left: 2px;
+	color: #666666;
+}
+.tableadd td input{
+	height: 25px;
+	border: 1px solid #E0E0E0;
+	border-radius: 4px;
+}
+.tableadd td button{
+	margin-right: 10px;
+	background-color: #467FE6;
+	color: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	padding: 2px 5px;
+	font-size: 13px;
+	border: 0px;
+	border-radius: 4px;
+	cursor: pointer;
+}
